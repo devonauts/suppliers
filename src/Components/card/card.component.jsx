@@ -5,7 +5,7 @@ import './card.styles.scss';
 const Card = (props) => (
 
     <div className= 'card-container'>
-        <img src="kartyy-suppliers/kartyy-suppliers/public/apple-icon.png" height='50' width='50' alt="supplier"/>
+        <img src="https://www.kartyy.com/img/my-shop-logo-1571887939.jpg" height='50' width='100' alt="supplier"/>
         <h2>{props.supplier.name}</h2>
         <h3>Comisión: {props.supplier.comision}</h3>
         <h3>Membresía: {props.supplier.contractType}</h3>

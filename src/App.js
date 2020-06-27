@@ -142,7 +142,9 @@ class App extends Component  {
 
     return (
       <div className="App">
-      <h1 style={{color: "white"}}> Directorio de Kartyy <img alt='logo' src='../public/apple-icon.png'/></h1>
+      <img alt='logo' src='https://github.com/devonauts/suppliers/blob/master/public/blanco.png' height='80' width='80'/>
+      <h1 style={{color: "white"}}> Directorio de Kartyy </h1>
+      
         <CardList suppliers={this.state.suppliers}/>
       </div>
     );
