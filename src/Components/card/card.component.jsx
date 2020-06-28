@@ -1,10 +1,9 @@
 import React from 'react';
 import './card.styles.scss';
 
-
 const Card = (props) => (
 
-    <div className= 'card-container'>
+    <div className= 'card-container' >
         
         <h1>{props.supplier.name}</h1>
         <p>Comisión: {props.supplier.comision}</p>

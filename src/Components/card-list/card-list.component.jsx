@@ -7,7 +7,9 @@ const CardList = (props) => {
 return (
 
 <div className= "card-list">
-{props.suppliers.map(supplier => (<Card supplier= {supplier}/>) )}
+{
+    props.filtered.map( supplier => (
+        <Card  key={supplier.key} supplier= {supplier}/>) )}
 </div>
 )
 }
